@@ -2,11 +2,15 @@
 
 namespace DNCode.Website.Controllers
 {
-    public class AboutController : Controller
-    {
-        public ActionResult Index()
+	public class AboutController : Controller
+	{
+		public ActionResult Index()
+		{
+			return View();
+		}
+        public ActionResult GetDetails()
         {
-            return View();
+            return null;
         }
 	}
 }
